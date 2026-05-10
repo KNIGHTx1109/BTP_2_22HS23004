@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Sensex   R-squared:                       0.218
+Model:                            OLS   Adj. R-squared:                  0.211
+Method:                 Least Squares   F-statistic:                     32.00
+Date:                Sat, 05 Sep 2026   Prob (F-statistic):           1.55e-23
+Time:                        08:41:19   Log-Likelihood:                 1365.0
+No. Observations:                 464   AIC:                            -2720.
+Df Residuals:                     459   BIC:                            -2699.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0007      0.001      1.096      0.274      -0.001       0.002
+S&P 500           0.0204      0.063      0.326      0.745      -0.103       0.144
+Nikkei 225        0.1340      0.051      2.616      0.009       0.033       0.235
+DAX               0.3207      0.059      5.466      0.000       0.205       0.436
+SSE Composite     0.2838      0.065      4.399      0.000       0.157       0.411
+==============================================================================
+Omnibus:                      282.645   Durbin-Watson:                   1.771
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            11931.899
+Skew:                          -1.963   Prob(JB):                         0.00
+Kurtosis:                      27.531   Cond. No.                         131.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+--- Diagnostics ---
+Breusch-Godfrey LM p-value: 0.8885610512039209
+ARCH-LM p-value: 0.005332891252335097
